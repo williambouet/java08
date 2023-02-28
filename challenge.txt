@@ -1,0 +1,33 @@
+I Believe I Can Fly !
+x Tu vas pouvoir t'exercer à la création et l'implémentation d'une interface, en premier fais un Fork du dépôt suivant puis clone-le en local.
+
+x Pense bien à faire un Fork, sinon tu ne pourras rien pousser !
+
+Exemple de résultat lors de l'exécution de Nature :
+
+$ Eye Cherry takes off in the sky.
+$ Eye Cherry flies upward, altitude : 120
+$ Eye Cherry flies upward, altitude : 150
+$ It glides into the air.
+$ Eye Cherry flies downward, altitude : 10
+$ Eye Cherry is too high, it can't lands.
+$ Eye Cherry flies downward, altitude : 1
+$ Eye Cherry lands on the ground.
+
+Hawkeye takes off in the sky.
+Hawkeye flies upward, altitude : 120
+Hawkeye flies upward, altitude : 150
+It glides into the air.
+Hawkeye flies downward, altitude : 10
+Hawkeye is too high, it can't lands.
+Hawkeye flies downward, altitude : 1
+Hawkeye lands on the ground.
+
+Critères de validation
+Le dépôt GitHub contient bien le fichier Fly.java
+Les classes et interfaces respectent les conventions de la POO : attributs privés, 
+    utilisation du mot-clef this, getters et setters nommés correctement
+La classe Eagle implémente l'interface Fly
+La classe Nature contient l'appel des méthodes d'une instance de Eagle
+La classe Nature se compile sans erreur et affiche dans le terminal un résultat 
+    proche de celui présenté précédemment
